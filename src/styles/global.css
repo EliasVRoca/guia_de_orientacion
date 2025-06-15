@@ -1,0 +1,16 @@
+@import "./font.css";
+@import "flowbite/src/themes/default";
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Poppins", "sans-serif";
+  --font-body: 'Roboto', 'sans-serif';
+
+  --color-primary: #1a56db;
+  --color-secondary: #0e7490;
+  --color-accent: #0d9488;
+  --color-dark: #1e293b;
+  --color-light: #f1f5f9;
+  --color-regal-blue: #243c5a;
+}

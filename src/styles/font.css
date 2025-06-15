@@ -1,0 +1,28 @@
+.hero-pattern {
+  background: linear-gradient(135deg, rgba(26, 86, 219, 0.1) 0%, rgba(14, 116, 144, 0.1) 100%);
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.nutricion-card {
+  transition: all 0.3s ease;
+}
+
+.nutricion-card:hover {
+  transform: scale(1.03);
+}
+
+.bus-line {
+  border-left: 4px solid #1a56db;
+}
+
+.recipe-card {
+  transition: all 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-3px);
+}
